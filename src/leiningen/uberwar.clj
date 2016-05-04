@@ -41,5 +41,5 @@
   ([project war-name]
      (war/war
        project war-name
-       :profiles-to-merge [:uberjar]
+       :profiles-to-merge [:uberjar :user]
        :additional-writes jar-entries)))
